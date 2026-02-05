@@ -1,7 +1,13 @@
 
 
 ALL IN ONE: Data Structures & Algorithms In JavaScript Complete Course 2024 By HuXn -> 05 : 39 : 32 -> HuXn WebDev
- -> (start : 27-01-2026) (end : 00-00-2026) -->
+ -> (start : 27-01-2026) (end : 05-02-2026) -->
 
 Running Time -> 05 : 39 : 32 (Done)
 
+=============================================================
+
+JavaScript Data Structures: Getting Started -> 01 : 36 : 46 -> Academind
+ -> (start : 27-01-2026) (end : 05-02-2026) -->
+
+Running Time -> 01 : 36 : 46 (Done)
