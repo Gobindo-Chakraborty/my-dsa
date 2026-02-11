@@ -6,11 +6,11 @@ Question:
 
 Given an integer array nums, return true if any value appears at least twice.
 
-Answer (Set, O(n)):
-
 */
 
-var containsDuplicate = function (nums) {
+// ===== Set ===== // T -> O(n) & S -> O(n) => Recommended
+
+const containsDuplicateSet = function (nums) {
   const set = new Set();
 
   for (let num of nums) {
@@ -20,3 +20,6 @@ var containsDuplicate = function (nums) {
 
   return false;
 };
+
+console.log(containsDuplicate(nums));
+console.log(containsDuplicateSet(nums));
