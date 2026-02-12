@@ -8,6 +8,9 @@ Given an integer array nums, return true if any value appears at least twice.
 
 */
 
+const nums = [23, 54, 65, 34, 67, 23];
+const nums1 = [23, 45, 56, 234, 57];
+
 // ===== Set ===== // T -> O(n) & S -> O(n) => Recommended
 
 const containsDuplicateSet = function (nums) {
@@ -21,5 +24,4 @@ const containsDuplicateSet = function (nums) {
   return false;
 };
 
-console.log(containsDuplicate(nums));
 console.log(containsDuplicateSet(nums));
