@@ -36,3 +36,5 @@ const reverseList = function (head) {
 };
 
 console.log(reverseList(head));
+
+// Output: { val: 3, next: { val: 2, next: { val: 1, next: null } } }

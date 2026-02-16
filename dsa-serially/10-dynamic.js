@@ -25,4 +25,4 @@ const climbStairs = function (n) {
   return b;
 };
 
-console.log(climbStairs(5));
+console.log(climbStairs(5)); // Output: 8

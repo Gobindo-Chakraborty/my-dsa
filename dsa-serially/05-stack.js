@@ -27,4 +27,4 @@ const isValid = function (s) {
   return stack.length === 0;
 };
 
-console.log(isValid(str));
+console.log(isValid(str)); // Output: true

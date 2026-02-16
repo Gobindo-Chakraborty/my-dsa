@@ -18,4 +18,4 @@ const findKthLargest = function (nums, k) {
   return nums[k - 1];
 };
 
-console.log(findKthLargest(nums, k));
+console.log(findKthLargest(nums, k)); // Output: 5

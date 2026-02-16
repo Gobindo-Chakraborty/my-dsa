@@ -24,4 +24,4 @@ const containsDuplicateSet = function (nums) {
   return false;
 };
 
-console.log(containsDuplicateSet(nums));
+console.log(containsDuplicateSet(nums)); // Output: true

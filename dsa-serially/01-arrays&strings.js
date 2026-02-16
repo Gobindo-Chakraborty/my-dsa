@@ -66,6 +66,6 @@ const twoSumSortAndTwoPointers = function (nums, target) {
   }
 };
 
-console.log(twoSumBrute(nums, target));
-console.log(twoSumHashMap(nums, target));
-console.log(twoSumSortAndTwoPointers(nums, target));
+console.log(twoSumBrute(nums, target)); // Output: [ 2, 4 ]
+console.log(twoSumHashMap(nums, target)); // Output: [ 2, 4 ]
+console.log(twoSumSortAndTwoPointers(nums, target)); // Output: [ 2, 4 ]

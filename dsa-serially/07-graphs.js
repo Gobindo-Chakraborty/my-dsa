@@ -50,4 +50,4 @@ const numIslands = function (grid) {
   return count;
 };
 
-console.log(numIslands(grid));
+console.log(numIslands(grid)); // Output: 4
