@@ -6,11 +6,18 @@ Question:
 
 Given a grid of '1' (land) and '0' (water), return number of islands.
 
-Answer:
-
 */
 
-var numIslands = function (grid) {
+const grid = [
+  ["1", "1", "0", "0"],
+  ["1", "1", "0", "0"],
+  ["0", "0", "1", "0"],
+  ["0", "1", "0", "1"],
+];
+
+// ===== Graph ===== // T -> O(R * C) & S -> O(R * C) => Recommended
+
+const numIslands = function (grid) {
   let count = 0;
 
   function dfs(r, c) {
@@ -18,7 +25,7 @@ var numIslands = function (grid) {
       r < 0 ||
       c < 0 ||
       r >= grid.length ||
-      c >= grid[0].length ||
+      c >= grid[r].length ||
       grid[r][c] === "0"
     )
       return;
@@ -32,7 +39,7 @@ var numIslands = function (grid) {
   }
 
   for (let r = 0; r < grid.length; r++) {
-    for (let c = 0; c < grid[0].length; c++) {
+    for (let c = 0; c < grid[r].length; c++) {
       if (grid[r][c] === "1") {
         count++;
         dfs(r, c);
@@ -42,3 +49,5 @@ var numIslands = function (grid) {
 
   return count;
 };
+
+console.log(numIslands(grid));

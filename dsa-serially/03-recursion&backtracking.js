@@ -6,8 +6,6 @@ Question:
 
 Given an array of unique integers nums, return all possible subsets.
 
-Answer:
-
 */
 
 const nums = [1, 2, 3];

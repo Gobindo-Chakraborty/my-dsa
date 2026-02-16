@@ -6,13 +6,15 @@ Question:
 
 Given a string containing ()[]{}, determine if it is valid.
 
-Answer:
-
 */
 
-var isValid = function (s) {
+const str = "()[{}]";
+
+// ===== Stack ===== // T -> O(n) & S -> O(n) => Recommended
+
+const isValid = function (s) {
   const stack = [];
-  const map = { ")": "(", "]": "[", "}": "{" };
+  const map = { ")": "(", "}": "{", "]": "[" };
 
   for (let ch of s) {
     if (ch in map) {
@@ -24,3 +26,5 @@ var isValid = function (s) {
 
   return stack.length === 0;
 };
+
+console.log(isValid(str));

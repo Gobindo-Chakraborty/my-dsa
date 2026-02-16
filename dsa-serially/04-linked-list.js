@@ -6,11 +6,22 @@ Question:
 
 Given the head of a singly linked list, reverse it.
 
-Answer:
-
 */
 
-var reverseList = function (head) {
+const head = {
+  val: 1,
+  next: {
+    val: 2,
+    next: {
+      val: 3,
+      next: null,
+    },
+  },
+};
+
+// ===== Linked List ===== // T -> O(n) & S -> O(1) => Recommended
+
+const reverseList = function (head) {
   let prev = null;
   let curr = head;
 
@@ -23,3 +34,5 @@ var reverseList = function (head) {
 
   return prev;
 };
+
+console.log(reverseList(head));
